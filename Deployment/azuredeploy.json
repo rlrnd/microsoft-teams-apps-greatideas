@@ -54,7 +54,7 @@
     "appIconUrl": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "https://raw.githubusercontent.com/OfficeDev/microsoft-teams-apps-greatideas/master/Manifest/color.png",
+      "defaultValue": "https://raw.githubusercontent.com/rlrnd/microsoft-teams-apps-greatideas/master/Manifest/color.png",
       "metadata": {
         "description": "The link to the icon for the app. It must resolve to a PNG file."
       }
