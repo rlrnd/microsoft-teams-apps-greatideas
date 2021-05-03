@@ -8,7 +8,7 @@ import { ReactPlugin } from "@microsoft/applicationinsights-react-js";
 export const getApplicationInsightsInstance = (telemetry: any, browserHistory: any): any => {
     // Initialize application insights for logging events and errors.
 
-    let reactPlugin = new ReactPlugin();
+    let reactPlugin: any = new ReactPlugin();
     let appInsights: any = null;
     try {
         appInsights = new ApplicationInsights({
